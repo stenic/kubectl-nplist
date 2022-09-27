@@ -1,58 +1,58 @@
-# [[project]]
+# kubectl-nplist
 
-[[project]] does things.
+kubectl-nplist does things.
 
 ## Installation
 
 ```shell
 # homebrew
-brew install stenic/tap/[[project]]
+brew install stenic/tap/kubectl-nplist
 
 # gofish
 gofish rig add https://github.com/stenic/fish-food
-gofish install github.com/stenic/fish-food/[[project]]
+gofish install github.com/stenic/fish-food/kubectl-nplist
 
 # scoop
-scoop bucket add [[project]] https://github.com/stenic/scoop-bucket.git
-scoop install [[project]]
+scoop bucket add kubectl-nplist https://github.com/stenic/scoop-bucket.git
+scoop install kubectl-nplist
 
 # go
-go install github.com/stenic/[[project]]@latest
+go install github.com/stenic/kubectl-nplist@latest
 
 # docker 
-docker pull ghcr.io/stenic/[[project]]:latest
+docker pull ghcr.io/stenic/kubectl-nplist:latest
 
 # dockerfile
-COPY --from=ghcr.io/stenic/[[project]]:latest /[[project]] /usr/local/bin/
+COPY --from=ghcr.io/stenic/kubectl-nplist:latest /kubectl-nplist /usr/local/bin/
 ```
 
-> For even more options, check the [releases page](https://github.com/stenic/[[project]]/releases).
+> For even more options, check the [releases page](https://github.com/stenic/kubectl-nplist/releases).
 
 
 ## Run
 
 ```shell
 # Installed
-[[project]] -h
+kubectl-nplist -h
 
 # Docker
-docker run -ti ghcr.io/stenic/[[project]]:latest -h
+docker run -ti ghcr.io/stenic/kubectl-nplist:latest -h
 
 # Kubernetes
-kubectl run [[project]] --image=ghcr.io/stenic/[[project]]:latest --restart=Never -ti --rm -- -h
+kubectl run kubectl-nplist --image=ghcr.io/stenic/kubectl-nplist:latest --restart=Never -ti --rm -- -h
 ```
 
 ## Documentation
 
 ```shell
-[[project]] -h
+kubectl-nplist -h
 ```
 
 ## Badges
 
-[![Release](https://img.shields.io/github/release/stenic/[[project]].svg?style=for-the-badge)](https://github.com/stenic/[[project]]/releases/latest)
-[![Software License](https://img.shields.io/github/license/stenic/[[project]]?style=for-the-badge)](./LICENSE)
-[![Build status](https://img.shields.io/github/workflow/status/stenic/[[project]]/Release?style=for-the-badge)](https://github.com/stenic/[[project]]/actions?workflow=build)
+[![Release](https://img.shields.io/github/release/stenic/kubectl-nplist.svg?style=for-the-badge)](https://github.com/stenic/kubectl-nplist/releases/latest)
+[![Software License](https://img.shields.io/github/license/stenic/kubectl-nplist?style=for-the-badge)](./LICENSE)
+[![Build status](https://img.shields.io/github/workflow/status/stenic/kubectl-nplist/Release?style=for-the-badge)](https://github.com/stenic/kubectl-nplist/actions?workflow=build)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge)](https://conventionalcommits.org)
 
 ## License
